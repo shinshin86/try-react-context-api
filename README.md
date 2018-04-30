@@ -6,6 +6,10 @@ Using [create-react-app](https://github.com/facebook/create-react-app)
 
 
 
+## DEMO
+
+![gif demo](https://github.com/shinshin86/try-react-context-api/blob/master/gif-demo/demo.gif?raw=true)
+
 ## Start DEMO
 
 ```bash
