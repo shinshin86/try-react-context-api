@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ThemeChanger from './ThemeChanger'
+import TabContent from './TabContent';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  max-width: 1100px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+`;
 
 class App extends Component {
   render() {
@@ -14,7 +22,9 @@ class App extends Component {
         <p className="App-intro">
           Context API Sample
         </p>
-        <ThemeChanger />
+        <Container>
+          <TabContent />
+        </Container>
       </div>
     );
   }
